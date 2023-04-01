@@ -18,6 +18,14 @@
         <div class="nama">Syifa Hadiarti Aulia | FE 8</div>
     </body>
     <script>
+        let looping = 0;
+        let again = true;
 
+        while (again) {
+            looping++;
+            let acc = confirm("Apakah anda ingin mengulang lagi? ");
+            acc == true ? (again = true) : (again = false);
+        }
+        alert(`Perulangan telah dilakukan sebanyak : ${perulangan} kali`);
     </script>
 </html>
