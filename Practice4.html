@@ -18,14 +18,14 @@
         <div class="nama">Syifa Hadiarti Aulia | FE 8</div>
     </body>
     <script>
-        let looping = 0;
-        let again = true;
+        let looping = 0; // mendeklarasikan nilai awal perulangan 
+        let again = true; // mendeklarasikan variable again 
 
         while (again) {
             looping++;
-            let acc = confirm("Apakah anda ingin mengulang lagi? ");
-            acc == true ? (again = true) : (again = false);
+            let acc = confirm("Apakah anda ingin mengulang lagi? "); // konfirmasi untuk melakukan perulangan 
+            acc == true ? (again = true) : (again = false); // validasi nilai variable acc
         }
-        alert(`Perulangan telah dilakukan sebanyak : ${perulangan} kali`);
+        alert(`Perulangan telah dilakukan sebanyak : ${perulangan} kali`); // menampilkan jumlah perulangan
     </script>
 </html>
