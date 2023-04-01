@@ -18,5 +18,18 @@
         <div class="nama">Syifa Hadiarti Aulia | FE 8</div>
     </body>
     <script>
+    let benar = true;
+    while (benar) {
+        let jawaban = prompt("Sebutkan kepanjangan dari nama IB? ");
+
+        jawaban = jawaban.toLowerCase();
+
+        if (jawaban == "impact byte"){
+            benar = false;
+        } else {
+            alert("Jawabanmu Salah, silahkan jawab kembali ");
+        }
+    }
+    alert("Selamat jawaban kamu benar!");
     </script>
 </html>
