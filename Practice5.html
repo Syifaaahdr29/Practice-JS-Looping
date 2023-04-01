@@ -18,18 +18,17 @@
         <div class="nama">Syifa Hadiarti Aulia | FE 8</div>
     </body>
     <script>
-    let benar = true;
-    while (benar) {
-        let jawaban = prompt("Sebutkan kepanjangan dari nama IB? ");
+    let benar = true; // mendeklarasikan variable benar
+    while (benar) { // kondisi ketika variable benar bernilai true
+        let jawaban = prompt("Sebutkan kepanjangan dari nama IB? "); // menampilkan pop up dengan prompt
+        jawaban = jawaban.toLowerCase(); // mengubah jawaban menjadi huruf kecil
 
-        jawaban = jawaban.toLowerCase();
-
-        if (jawaban == "impact byte"){
-            benar = false;
+        if (jawaban == "impact byte"){ 
+            benar = false; // kalau jawaban benar maka akan keluar dari perulangan
         } else {
-            alert("Jawabanmu Salah, silahkan jawab kembali ");
+            alert("Jawabanmu Salah, silahkan jawab kembali "); // menampilkan jawaban salah
         }
     }
-    alert("Selamat jawaban kamu benar!");
+    alert("Selamat jawaban kamu benar!"); // alert jawaban benar dan keluar dari perulangan
     </script>
 </html>
