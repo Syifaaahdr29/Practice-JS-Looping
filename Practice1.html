@@ -30,11 +30,13 @@
         <h3>Practice 1 JS Looping | List User</h3>
         <ul id="list"></ul>
         <script>
+            // mengambil elemen list
             const list = document.getElementById("list");
+            // memasukkan nilai ke variabel user
             let user = 100;
-            //perulangan
+            // perulangan jumlah user
             for (let i = 1; i <= 100; i++) {
-                list.innerHTML += `<li>User ke : ${i}</li>`;
+                list.innerHTML += `<li>User ke : ${i}</li>`; //menampilkan urutan user
             };
         </script>
     </body>
